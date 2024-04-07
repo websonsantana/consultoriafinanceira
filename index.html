@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<link rel="icon" type="image/x-icon" href="LOGOWM.jpg">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -67,25 +68,26 @@ button:hover {
 		<br>
 		<br>
     <div class="container">
-		
+	
+
 	<img src="LOGOWM.jpg" alt="LOGOWM" width="100">
-            
-		
+      <P>	
+<B>MW CONSULTORIA FINANCEIRA      
+		<hr>
 	<h2>Acesso restrito!</h2>
 	
-          <hr>
-		  <p>
-		  Apenas para membros
-		  <p>
+          
+		  
             <form id="loginForm">
             <label for="password"><b>Login:</label>
             <input type="password" id="password" name="password" required>
             <button type="submit">Entrar</button>
         </form>
+		<br>
+		<h5>Esqueci a senha.</h5>
         <div id="errorMessage" class="error-message"></div>
 		<br>
-		<br>
-		<br>
+		
 		<hr>
 		<footer>
         <p><h6> <a class="yellow-text">&copy;2024 WS Solucoes Tecnológias. Todos os Direitos Reservados.</h6></p></a>
@@ -100,7 +102,7 @@ button:hover {
 const errorMessage = document.getElementById('errorMessage');
 
 // Senha de acesso
-const correctPassword = 'senha123';'webson@10';
+const correctPassword = 'senha123';
 
 passwordForm.addEventListener('submit', function(event) {
     event.preventDefault();
