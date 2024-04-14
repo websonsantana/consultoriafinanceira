@@ -25,18 +25,38 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <!-- Metatag manifest para dispositivos Android -->
     <link rel="manifest" href="/android.json">
+	
  <div class="container">	
   <div class="menu-container">
   <button onclick="toggleMenu()"><a class="yellow-text"><h5>☰</h5></button></a>
   <center><img src="logo1.jpg" width ="85%"></center>
         </div>
-	</div>
+	
+    </div>
+	<div class="container1">
+	<div class="login-container">
+              <div id="loginForm" class="login-form">
+            <input type="text" placeholder="Usuário">
+            <input type="password" placeholder="Senha">
+            <button>Login</button>
+        </div>
+		</div>
+		
 	</header>
 	 <style>
+	 
+	 
+	  .login-container {
+	  margin-left: 50%;
+	}
+	 
 	  .menu-container {
             display: flex;
             align-items: center; /* Alinhar itens verticalmente */
   }
+
+			
+			
         .menu-button {
             background-color: #000; /* Cor de fundo do botão */
             color: #fff; /* Cor do texto do botão */
@@ -60,7 +80,8 @@
             padding: 10px;
             background-color: #C1C8D4;
             text-align: left;
-	    border-radius: 20px;
+	        border-radius: 20px;
+			
 			
         }
         body {
@@ -107,7 +128,7 @@
         }
         section {
             padding: 0px;
-          
+            
             text-align: left;
 		}
         footer {
@@ -212,7 +233,6 @@
         background-color: #0095DD; /* Define a cor da linha, neste caso vermelho */
 }
     </style>
-	
     <body>
               
     
@@ -239,15 +259,6 @@
         </nav>
 		
 		<hr>
-	    <center>
-	     <div class="login-container">
-        <button onclick="toggleLoginForm()">Login</button>
-        <div id="loginForm" class="login-form">
-            <input type="text" placeholder="Usuário">
-            <input type="password" placeholder="Senha">
-            <button>Login</button>
-        </div>
-		     </center>
     <section>
     <CENTER><IMG src="comercial.gif" width= "85%"></CENTER>
 
