@@ -30,6 +30,14 @@
   <button onclick="toggleMenu()"><a class="yellow-text"><h5>☰</h5></button></a>
   <center><img src="logo1.jpg" width ="85%"></center>
         </div>
+	 <div class="login-container">
+        <button onclick="toggleLoginForm()">Login</button>
+        <div id="loginForm" class="login-form">
+            <input type="text" placeholder="Usuário">
+            <input type="password" placeholder="Senha">
+            <button>Login</button>
+        </div>
+    </div>
 	</header>
 	 <style>
 	  .menu-container {
@@ -163,7 +171,7 @@
             text-align: center;
         }
 		
-		.box {
+	 .box {
             width: 85%;
             padding: 0px;
             box-sizing: border-box;
